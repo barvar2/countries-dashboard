@@ -119,7 +119,7 @@ export default function App() {
             <Page>
                 {error ? (
                     <ErrorBox role="alert">
-                        <b>{UI_TEXT.ERROR.LABEL}</b> {error}
+                        <b>{UI_TEXT.ERROR.LABEL}</b>
                         <HintText>{UI_TEXT.ERROR.HINT}.</HintText>
                         <RetryButton type="button" onClick={refetch}>
                             {UI_TEXT.ERROR.RETRY}
